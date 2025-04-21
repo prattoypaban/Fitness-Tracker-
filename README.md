@@ -4,11 +4,11 @@ Fitness Tracker is a simple fitness tracker web application that integrates with
 
  Features
 
--Google OAuth 2.0*Sign-In
--Randomized Sample Fitness Stats
+-Google OAuth 2.0 Sign-In
+-Randomised Sample Fitness Stats
 -Line Chart showing step trends using Chart.js
 -Responsive UI with clean design
--Login/Logoutsession handling via localStorage
+-Login/Logout session handling via localStorage
 
 Technologies Used
 
@@ -26,16 +26,13 @@ Google API Setup
 4 Enable Fitness API.
 5 Replace `CLIENT_ID` in `app.js` with your OAuth 2.0 client ID.
  
- Project Structure
-
-
-fitness-tracker/
-│
-├── index.html        # Main UI for login and data display
-├── auth.html         # Handles OAuth redirect and token storage
-├── style.css         # Styling and layout
-├── app.js            # Core app logic
-└── README.md         # Project overview
+Project Structure:
+fitness-tracker
+1. index.html         Main UI for login and data display
+2. auth.html          Handles OAuth redirect and token storage
+3. style.css          Styling and layout
+4. app.js             Core app logic
+5. README.md          Project overview
 
 Deployment -via Vercel
 
