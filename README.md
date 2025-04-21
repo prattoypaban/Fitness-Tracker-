@@ -36,8 +36,14 @@ fitness-tracker
 
 Deployment -via Vercel
 
+Course Name: Web Engineering Lab 
+Course code: CSE 3106
+Instructor: 
+Md. Mynoddin
+Assistant Professor.
+Department of CSE,
+Rangamati Science and Technology.
 
-Author
-
+Developer:
 Prattoy Paban Dhar– CSE Student, Rangamati Science and Technology University.
 Md. Arifuzzaman Chy- CSE Student, Rangamati Science and Technology University.
