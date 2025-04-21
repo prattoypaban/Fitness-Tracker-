@@ -1,3 +1,11 @@
+/*Course Name: Web Engineering Lab 
+Course code: CSE 3106
+Instructor: 
+Md. Mynoddin
+Assistant Professor.
+Department of CSE,
+Rangamati Science and Technology.
+*/
 const CLIENT_ID = "1008012467806-stammm8jg3v607fhjlau798kfjqaa6ia.apps.googleusercontent.com";
 const SCOPES = "https://www.googleapis.com/auth/fitness.activity.read https://www.googleapis.com/auth/fitness.heart_rate.read https://www.googleapis.com/auth/userinfo.email";
 const loginBtn = document.getElementById("loginBtn");
@@ -79,3 +87,4 @@ logoutBtn.addEventListener("click", () => {
 
 
 logoutBtn.classList.remove("hidden");
+
