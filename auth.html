@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Auth</title>
+</head>
+<body>
+  <script>
+    const hash = window.location.hash.substr(1);
+    const params = new URLSearchParams(hash);
+    const accessToken = params.get("access_token");
+
+    if (accessToken) {
+      localStorage.setItem("google_token", accessToken);
+      window.location.href = "/";
+    } else {
+      document.body.innerHTML = "<p>Authentication failed.</p>";
+    }
+  </script>
+</body>
+</html>

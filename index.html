@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="loginCard" class="card">
+      <h1>Welcome to the Fitness Tracker</h1>
+      <p>Login to track your fitness data</p>
+      <button id="loginBtn" class="btn">Sign in with Google</button>
+    </div>
+
+    <div id="dataCard" class="card hidden">
+      <h1>Welcome, <span id="userEmail">Loading...</span></h1>
+      <div class="data">
+        <p><strong>Steps:</strong> <span id="steps">Loading...</span></p>
+        <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+        <p><strong>Heart Rate:</strong> <span id="heartRate">Loading...</span></p>
+      </div>
+
+      <!-- Graph Section -->
+      <canvas id="stepsChart" width="400" height="200"></canvas>
+
+      <button id="logoutBtn" class="btn logout-btn">Logout</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
