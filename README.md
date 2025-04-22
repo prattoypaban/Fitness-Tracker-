@@ -40,7 +40,7 @@ Course Name: Web Engineering Lab
 Course code: CSE 3106
 
 Instructor: 
-Md. Mynoddin
+Md. Mynoddin.
 Assistant Professor.
 Department of CSE,
 Rangamati Science and Technology University.
