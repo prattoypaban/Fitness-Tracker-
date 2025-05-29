@@ -6,7 +6,7 @@ Assistant Professor.
 Department of CSE,
 Rangamati Science and Technology University.
 */
-const CLIENT_ID = "1008012467806-stammm8jg3v607fhjlau798kfjqaa6ia.apps.googleusercontent.com";
+const CLIENT_ID = "Client_ID";
 const SCOPES = "https://www.googleapis.com/auth/fitness.activity.read https://www.googleapis.com/auth/fitness.heart_rate.read https://www.googleapis.com/auth/userinfo.email";
 const loginBtn = document.getElementById("loginBtn");
 const logoutBtn = document.getElementById("logoutBtn");
